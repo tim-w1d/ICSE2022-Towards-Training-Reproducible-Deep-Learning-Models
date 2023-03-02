@@ -12,6 +12,8 @@ import random
 import math
 import numpy as np
 
+DATA_DIR = 'cifar10/cifar-10-batches-py/'
+
 class_num       = 10
 image_size      = 32
 img_channels    = 3
@@ -22,7 +24,7 @@ def unpickle(file):
     return dict
 
 def prepare_data():
-    data_dir = '/root/repro/cifar-10-batches-py'
+    data_dir = DATA_DIR
     image_dim = image_size * image_size * img_channels
     meta = unpickle( data_dir + '/batches.meta')
 

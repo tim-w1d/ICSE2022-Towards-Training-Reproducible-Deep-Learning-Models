@@ -19,9 +19,9 @@ import time
 #np.random.seed(0)
 
 
-import sys
-# import the path where you put cifar10_load.py or cifar100_load.py
-sys.path.insert(1, '/path_to_change')
+# import sys
+# # import the path where you put cifar10_load.py or cifar100_load.py
+# sys.path.insert(0, '/cifar10/')
 
 import cifar10_load
 
