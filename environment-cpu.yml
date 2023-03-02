@@ -1,0 +1,12 @@
+name: towards-training-tf1-cpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+    - tensorflow==1.14
+    - scipy
+
+prefix: /home/tim/miniconda3/envs/towards-training-tf1-cpu # replace with your conda environment path
